@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 #Xray版本
 if [[ -z "${VER}" ]]; then
@@ -7,22 +7,22 @@ fi
 echo ${VER}
 
 if [[ -z "${Vless_Path}" ]]; then
-  Vless_Path="/styujrg"
+  Vless_Path="/s233"
 fi
 echo ${Vless_Path}
 
 if [[ -z "${Vless_UUID}" ]]; then
-  Vless_UUID="b09bd908-870a-46ee-9e79-3e6644088aa6"
+  Vless_UUID="273d7707-9bb1-44ff-b24c-b59876344cac"
 fi
 echo ${Vless_UUID}
 
 if [[ -z "${Vmess_Path}" ]]; then
-  Vmess_Path="/tgtytuy"
+  Vmess_Path="/s244"
 fi
 echo ${Vmess_Path}
 
 if [[ -z "${Vmess_UUID}" ]]; then
-  Vmess_UUID="b09bd908-870a-46ee-9e79-3e6644088aa6"
+  Vmess_UUID="273d7707-9bb1-44ff-b24c-b59876344cac"
 fi
 echo ${Vmess_UUID}
 

@@ -1,36 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hout
+  name: ray
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hout
+      app: ray
   template:
     metadata:
       labels:
-        app: hout
+        app: ray
     spec:
       containers:
-      - image: okteto.dev/hout:latest
-        name: hout
+      - image: okteto.dev/ray:latest
+        name: ray
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-        value: "icook.tw"
-          valu:Vless_UUID
-          value: "$Vless_UUID"
-           value: "b09bd908-870a-46ee-9e79-3e6644088aa6"
+          value: ""
+        - name: Vless_UUID
+          value: "273d7707-9bb1-44ff-b24c-b59876344cac"
         - name: Vless_Path
-          value: "/styujrg"
+          value: "/s233"
         - name: Vmess_UUID
-          value: "$Vmess_UUID"
-           value: "b09bd908-870a-46ee-9e79-3e6644088aa6"
+          value: "273d7707-9bb1-44ff-b24c-b59876344cac"
         - name: Vmess_Path
-          value: "/tgtytuy"
+          value: "/s244"
         - name: Share_Path
           value: "/share233"

@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hout
+  name: ray
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "hout"
+  - name: "ray"
     port: 8080
   selector:
-    app: hout
+    app: ray
