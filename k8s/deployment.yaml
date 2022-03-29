@@ -21,14 +21,14 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: ""
+          value: "icook.tw"
         - name: Vless_UUID
-          value: "273d7707-9bb1-44ff-b24c-b59876344cac"
+          value: "b09bd908-870a-46ee-9e79-3e6644088aa6"
         - name: Vless_Path
-          value: "/s233"
+          value: "/TYAWR"
         - name: Vmess_UUID
-          value: "273d7707-9bb1-44ff-b24c-b59876344cac"
+          value: "b09bd908-870a-46ee-9e79-3e6644088aa6"
         - name: Vmess_Path
-          value: "/s244"
+          value: "/LUHGTYR"
         - name: Share_Path
           value: "/share233"
